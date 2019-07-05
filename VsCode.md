@@ -1,6 +1,8 @@
 # Introduction
 
-Visual Studio Code is not officially built for *Raspberry Pi* but there is a project called *Code-OSS* that provide open source builds. These instructions are a condensed version of [How to Install Visual Studio Code on the Raspberry Pi](https://www.youtube.com/watch?v=6AIylZ_UvEA) by user "*MakeUseOf*" (*a big thumbs up for his video*).
+Visual Studio Code is not officially built for *Raspberry Pi* but there is a project called *Code-OSS* that provide open source builds. These instructions are a condensed version of [How to Install Visual Studio Code on the Raspberry Pi](https://www.youtube.com/watch?v=6AIylZ_UvEA) by user "*MakeUseOf*" (*a big thumbs up for his video*). 
+
+This page is intended as notes for myself so that I can easily set up and configure Code-OSS the same way every time without running the internetz. I intended to add more instructions later with my favorite home cooked shortcuts and so on.
 
 # Preparation
 
@@ -30,4 +32,9 @@ $ sudo apt-mark hold code-oss
 # Inform apt to start updating Code-OSS again
 $ sudo apt-mark unhold code-oss
 ```
+# Usage Instructions
+
+Go to Start Menu > Progamming > Code-OSS in Raspian to launch the program.
+
+It is supposed to be a bit slow the first time but did not notice this on my Raspberry Pi 4. It will open the documentation page for VS Code in your default browser. I too recommend that you bookmark this page, it is useful when you want to customize this IDE.
 
