@@ -7,7 +7,7 @@
 $ sudo apt-get install libxext-dev
 ```
 
-## Download and Install Instructions
+## Download and Build SDL2
 
 ```bash
 # Download SDL2
@@ -30,11 +30,28 @@ $ ../configure
 
 # Run make script
 $ make
-
-#
-
-
 ```
+
+### Install
+
+You can install the SDL version you built with the following command from the *build* folder.
+
+```bash
+$ sudo make install
+```
+
+I have personally never used this option though.
+
+### Notes
+
+The shared object files can be found at *SDL2-2.0.9/build/build/.libs/*. 
+
+The following Stackoverflow explain the interesting file types: https://stackoverflow.com/questions/12237282/whats-the-difference-between-so-la-and-a-library-files
+
+## lala
+
+
+
 ## Resources
 
 [SDL Projects](https://www.libsdl.org/projects/)
